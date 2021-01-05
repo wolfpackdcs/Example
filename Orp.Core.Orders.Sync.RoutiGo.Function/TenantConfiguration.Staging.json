@@ -1,0 +1,18 @@
+{
+  "TenantConfigurations": [
+    {
+      "TenantId": "X",
+      "ScopeConfigurations": [
+        {
+          "ScopeId": "X",
+          "TenantOAuth2Configuration": {
+            "OAuth2Client": "orp_x",
+            "OAuth2Secret": "",
+            "OAuth2Scope": "orp Customer.X"
+          },
+          "ExportDeliveryUploadDirectory": "ftproot/x/development/export/orders/routigo"
+        }
+      ]
+    }
+  ]
+}
